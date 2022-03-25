@@ -1,0 +1,21 @@
+
+.container_max{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+#navbar-box{
+  justify-content: flex-end;
+}
+
+#navbar-small{
+  display: none;
+}
+
+#title-page-box{
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+
+@media screen and (max-width:575px) {
+  
+  .container_max{
+    width: 100%;
+  }
+  
+  #navbar-small{
+    display: flex;
+  }
+
+  #navbar-normal{
+    display: none;
+  }
+
+}

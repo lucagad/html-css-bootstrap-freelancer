@@ -11,13 +11,49 @@
 
   <link rel="stylesheet" href="css/debug.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 
   <title>Bootstrap Freelancer</title>
 </head>
 
 <body>
 
-  <header class="debug-red h100">HEADER</header>
+  <header class="debug-red h100">
+
+    <!-- Personal container with width in % -->
+    <div class="container_max">
+
+      <!-- Bootstrap container full-width -->
+      <div class="container-fluid">
+        <div class="row justify-content-between debug-red h100">
+          <!-- Header Column Left -->
+          <div id="title-page-box" class="col-6 flex debug-red h100">
+            <span>TITLE</span>
+          </div>
+          <!-- /Header Column Left -->
+
+          <!-- Header Column Right -->
+          <div id="navbar-box" class="col-6 flex debug-red h100">
+            <nav id="navbar-normal" class="navbar">
+              <span>MENU</span>
+            </nav>
+
+            <nav id="navbar-small" class="navbar">
+              <span>H</span>
+            </nav>
+
+          </div>
+          <!-- /Header Column Right -->
+        </div>
+      </div>
+      <!-- /Bootstrap container full-width -->
+
+    </div>
+    <!-- Personal container with width in % -->
+  </header>
+
+
+
   <section class="jumbotron debug-lightblue h500">JUMBOTRON</section>
   <main class="debug-blue h700">MAIN</main>
   <footer class="debug-green h300">FOOTER</footer>
