@@ -1,8 +1,12 @@
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:767px) {
   
   .container_max{
     width: 100%;
+  }
+
+  .container_middle{
+    width: 90%;
   }
 
   #navbar-small{

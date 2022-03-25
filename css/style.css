@@ -4,6 +4,11 @@
   margin: 0 auto;
 }
 
+.container_middle{
+  width: 70%;
+  margin: 0 auto;
+}
+
 .flex{
   display: flex;
 }
@@ -40,6 +45,7 @@ header{
 .jumbotron{
   justify-content: center;
   align-items: center;
+  background-color: #1abc9c;
 }
 
 .jumbotron_box{
@@ -54,6 +60,57 @@ header{
     /JUMBOTRON 
 */
 
+/* 
+  MAIN 
+*/
+
+main{
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portfolio{
+  background-color: white;
+  width: 100%;
+}
+
+.portfolio_title{
+  text-align: center;
+}
+
+.portfolio_title{
+  text-align: center;
+}
+
+
+.about{
+  width: 100%;
+  background-color: #1abc9c;
+}
+
+.about_title{
+  text-align: center;
+}
+
+.about_download{
+  text-align: center;
+}
+
+.contact_me{
+  background-color: white;
+  width: 100%;
+}
+
+.contact_me{
+  text-align: center;
+}
+
+
+
+/* 
+  /MAIN 
+*/
 
 /* 
   FOOTER
