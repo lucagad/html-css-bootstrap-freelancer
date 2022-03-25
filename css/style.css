@@ -8,7 +8,16 @@
   display: flex;
 }
 
-#navbar-box{
+
+/* 
+    HEADER 
+*/
+
+header{
+  background-color:#2c3f51;
+}
+
+.navbar_box{
   justify-content: flex-end;
 }
 
@@ -16,6 +25,57 @@
   display: none;
 }
 
-#title-page-box{
+.title_page_box{
   align-items: center;
 }
+
+/* 
+    /HEADER 
+*/
+
+/* 
+    JUMBOTRON 
+*/
+
+.jumbotron{
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron_box{
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* 
+    /JUMBOTRON 
+*/
+
+
+/* 
+  FOOTER
+*/
+
+footer{
+  height: 250px;
+}
+
+.footer_top{
+  height: calc(100% - 60px);
+  background-color: #39546d;
+}
+
+.footer_bottom{
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  background-color:#2c3f51;
+  color: white;
+}
+
+/* 
+  /FOOTER
+*/
