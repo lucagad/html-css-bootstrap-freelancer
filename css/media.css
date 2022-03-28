@@ -13,4 +13,12 @@
     width: 100%;
   }
 
+  .portfolio{
+    padding: 25px 0;
+  }
+
+  .portfolio_box {
+    padding: 0;
+  }
+
 }
