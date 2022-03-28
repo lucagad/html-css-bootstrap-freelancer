@@ -1,18 +1,15 @@
 
 .container_max{
   width: 80%;
+  height: 100%;
   margin: 0 auto;
 }
 
 .container_middle{
   width: 70%;
+  height: 100%;
   margin: 0 auto;
 }
-
-.flex{
-  display: flex;
-}
-
 
 /* 
     HEADER 
@@ -20,19 +17,46 @@
 
 header{
   background-color:#2c3f51;
+  height: 60px;
+}
+
+header nav{
+  height: 100%;
+}
+
+header nav .row{
+  height: 100%;
+}
+
+.title_page_box{
+  text-transform: uppercase;
+  color: white;
 }
 
 .navbar_box{
   justify-content: flex-end;
-}
-
-#navbar-small{
-  display: none;
-}
-
-.title_page_box{
   align-items: center;
 }
+
+#navbar-normal{
+  text-transform: uppercase;
+}
+
+#navbar-normal ul{
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar-normal ul li{
+  list-style: none;
+  padding: 0 10px;
+}
+
+#navbar-normal ul li a{
+  text-decoration: none;
+  color: white;
+}
+
 
 /* 
     /HEADER 
@@ -43,9 +67,12 @@ header{
 */
 
 .jumbotron{
+  width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   background-color: #1abc9c;
+  color: white;
 }
 
 .jumbotron_box{
@@ -55,6 +82,14 @@ header{
   align-items: center;
 }
 
+.jumbotron_box img{
+  height: 140px;
+}
+
+.jumbotron_box h1,
+.jumbotron_box span {
+  text-transform: uppercase;
+}
 
 /* 
     /JUMBOTRON 
@@ -75,14 +110,13 @@ main{
   width: 100%;
 }
 
-.portfolio_title{
-  text-align: center;
+.portfolio_item{
+  background-color: antiquewhite;
 }
 
 .portfolio_title{
   text-align: center;
 }
-
 
 .about{
   width: 100%;
@@ -127,8 +161,6 @@ footer{
 
 .footer_bottom{
   height: 60px;
-  justify-content: center;
-  align-items: center;
   background-color:#2c3f51;
   color: white;
 }

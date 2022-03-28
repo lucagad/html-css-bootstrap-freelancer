@@ -9,14 +9,6 @@
     width: 90%;
   }
 
-  #navbar-small{
-    display: flex;
-  }
-
-  #navbar-normal{
-    display: none;
-  }
-
   .jumbotron_box{
     width: 100%;
   }

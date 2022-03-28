@@ -18,140 +18,178 @@
 
 <body>
 
-  <header class="h100">
-
-    <!-- Personal container with width in % -->
-    <div class="container_max">
-
+  <header>
       <!-- Bootstrap container full-width -->
-      <div class="container-fluid">
-        <div class="row justify-content-between debug-red h100">
-          <!-- Header Column Left -->
-          <div class="col-6 title_page_box flex debug-red h100">
-            <span>TITLE</span>
+      <nav class="container-fluid">
+        <div class="row justify-content-between align-items-center  debug-red">
+          <!-- Header Title Column -->
+          <div class="col-10 col-md-6 title_page_box d-flex debug-red">
+            <span>Start Bootstrap</span>
           </div>
-          <!-- /Header Column Left -->
+          <!-- /Header Title Column -->
 
-          <!-- Header Column Right -->
-          <div class="col-6 navbar_box flex debug-red h100">
-            <nav id="navbar-normal" class="navbar">
-              <span>MENU</span>
+          <!-- Header Normal Navbar Column -->
+          <div class="col-6 navbar_box d-flex justify-content-end align-items-center d-md-block debug-red">
+            <nav id="navbar-normal" class="nav_bar d-flex">
+              <ul class="d-flex">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
             </nav>
-
-            <nav id="navbar-small" class="navbar">
-              <span>H</span>
-            </nav>
-
           </div>
-          <!-- /Header Column Right -->
+          <!-- /Header Normal Navbar Column  -->
+
+          <!-- Header Hamburger Column  -->
+          <div class="col-2 navbar_box d-flex text-end d-md-none debug-red">
+            <nav id="navbar-small" class="nav_bar">
+                <span>H</span>
+            </nav>
+          </div>
+          <!-- /Header Hamburger Column  -->
+          
         </div>
-      </div>
+      </nav>
       <!-- /Bootstrap container full-width -->
-
-    </div>
-    <!-- Personal container with width in % -->
   </header>
 
   <!-- Jumbotron section -->
-  <section class="jumbotron flex debug-lightblue h500">
+  <section class="jumbotron d-flex debug-lightblue h500">
 
-    <div class="jumbotron_box flex debug-lightblue">
-      <h5>IMAGE</h5>
-      <h5>TITLE</h5>
-      <h5>DECORATIONS</h5>
-      <h5>SUBTITLE</h5>
+    <div class="jumbotron_box d-flex debug-lightblue">
+      <img src="https://doodleipsum.com/700/avatar-2?i=4eaa8e83ae7f03a591f0025589ae5cf8" alt="">
+      <h1>Start Bootstrap</h1>
+      <span>DECORATIONS</span>
+      <span>Grapich Artist - Web Designer - Illustrator</span>
     </div>
 
   </section>
   <!-- /Jumbotron section -->
 
-
+  <!-- Main content -->
   <main class="flex debug-blue">
-    
+
+    <!-- Portfolio Section -->
     <section class="portfolio debug-blue">
       <!-- Personal container with width in % -->
       <div class="container_max debug-blue">
 
         <div class="portfolio_title">
-          <h5>PORTFOLIO</h5>
+          <h2>Portfolio</h2>
         </div>
 
         <div class="portfolio_box">
           <div class="container-fluid debug-blue">
-            <div class="row justify-content-between debug-blue">
-              <div class="portfolio_item col-md-6 col-lg-4 debug-blue">ITEM 1</div>
-              <div class="portfolio_item col-md-6 col-lg-4 debug-blue">ITEM 2</div>
-              <div class="portfolio_item col-md-6 col-lg-4 debug-blue">ITEM 3</div>
-              <div class="portfolio_item col-md-6 col-lg-4 debug-blue">ITEM 4</div>
-              <div class="portfolio_item col-md-6 col-lg-4 debug-blue">ITEM 5</div>
-              <div class="portfolio_item col-md-6 col-lg-4 debug-blue">ITEM 6</div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-between debug-blue">
+              <div class="col debug-blue">
+                <div class="portfolio_item"> ITEM 1</div>
+              </div>
+              <div class="col debug-blue">
+                <div class="portfolio_item"> ITEM 2</div>
+              </div>
+              <div class="col debug-blue">
+                <div class="portfolio_item"> ITEM 3</div>
+              </div>
+              <div class="col debug-blue">
+                <div class="portfolio_item"> ITEM 4</div>
+              </div>
+              <div class="col debug-blue">
+                <div class="portfolio_item"> ITEM 5</div>
+              </div>
+              <div class="col debug-blue">
+                <div class="portfolio_item"> ITEM 6</div>
+              </div>
+              
             </div>
           </div>
         </div>
 
       </div>
     </section>
+    <!-- /Portfolio Section -->
 
-
+    <!-- About Section -->
     <section class="about debug-blue">
       <div class="container_middle debug-blue">
 
         <div class="about_title">
-          <h5>ABOUT</h5>
+          <h2>About</h2>
+          <span>DECORATIONS</span>
         </div>
 
         <div class="about_box">
           <div class="container-fluid debug-blue">
-            <div class="row justify-content-between debug-blue">
-              <div class="about_item col-md-6 debug-blue">ITEM 1</div>
-              <div class="about_item col-md-6 debug-blue">ITEM 2</div>
+            <div class="row row-cols-1 row-cols-md-2  justify-content-between debug-blue">
+              <div class="col about_item debug-blue">
+                <p>Freelancer is a free bootstrap theme created by Start
+                  Bootstrap. The download includes the complete
+                  source files including HTMl, CSS, and-lavaSerint as
+                  well as optional LESS stvlesheets for easv
+                  customization.</p>
+              </div>
+              <div class="col about_item debug-blue">
+                <p>Whether you're a student looking to showcase your
+                  work, a professional looking to attract clients, or a
+                  graphic artist looking to share vour projects, this
+                  template is the perfect starting point!</p>
+              </div>
             </div>
           </div>
 
           <div class="about_download">
-            <h5ì6>DOWNLOAD</h5ì6>
+            <h6>DOWNLOAD</h6>
           </div>
 
         </div>
 
       </div>
     </section>
+    <!-- /About Section -->
 
-
+    <!-- Contact Me Section -->
     <section class="contact_me debug-blue">
       <div class="container_middle debug-blue">
 
         <div class="contact_me_title">
-          <h5>CONTACT ME</h5>
+          <h2>Contact Me</h2>
+          <span>DECORATIONS</span>
+        </div>
+
+        <div class="contact_me_form_box">
+          <span>FORM</span>
         </div>
 
       </div>
     </section>
+    <!-- /Contact Me Section -->
 
   </main>
+  <!-- /Main content -->
 
 
-
+  <!-- Footer content -->
   <footer>
     <div class="footer_top">
       <!-- Personal container with width in % -->
       <div class="container_max"">
         <div class=" container-fluid">
-          <div class="row justify-content-between debug-green h100">
-            <div class="col-md-4 debug-black"></div>
-            <div class="col-md-4 debug-black"></div>
-            <div class="col-md-4 debug-black"></div>
+
+          <div class="row row-cols-1 row-cols-md-3 debug-green h100">
+            <div class="col debug-black"></div>
+            <div class="col debug-black"></div>
+            <div class="col debug-black"></div>
           </div>
+          
         </div>
       </div>
       <!-- Personal container with width in % -->
     </div>
 
-    <div class="footer_bottom flex">
-      <span>TEXT FOOTER BOTTOM</span>
+    <div class="footer_bottom d-flex justify-content-center align-items-center">
+      <span>Copyrigth &copy; Your Website 2019</span>
     </div>
   </footer>
+  <!-- /Footer content -->
   
 </body>
-
 </html>
