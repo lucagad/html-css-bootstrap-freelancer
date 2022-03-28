@@ -152,10 +152,23 @@ main h2{
 .contact_me{
   background-color: white;
   width: 100%;
+  padding: 40px;
 }
 
 .contact_me_title{
   text-align: center;
+}
+
+.input_custom{
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid grey;
+  padding: 0 0 10px 0;
+  color: black;
+}
+
+.input_custom::placeholder{
+  color: black;
 }
 
 #send-form{
