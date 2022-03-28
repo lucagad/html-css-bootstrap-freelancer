@@ -9,6 +9,8 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
   <link rel="stylesheet" href="css/debug.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
@@ -20,34 +22,27 @@
 
   <header>
       <!-- Bootstrap container full-width -->
-      <nav class="container-fluid">
-        <div class="row justify-content-between align-items-center  debug-red">
-          <!-- Header Title Column -->
-          <div class="col-10 col-md-6 title_page_box d-flex debug-red">
-            <span>Start Bootstrap</span>
-          </div>
-          <!-- /Header Title Column -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar_normal">
+        <div class="container">
 
-          <!-- Header Normal Navbar Column -->
-          <div class="col-6 navbar_box d-flex justify-content-end align-items-center d-md-block debug-red">
-            <nav id="navbar-normal" class="nav_bar d-flex">
-              <ul class="d-flex">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-          <!-- /Header Normal Navbar Column  -->
+          <a class="navbar-brand title_navbar" href="#" >Start Bootstrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-          <!-- Header Hamburger Column  -->
-          <div class="col-2 navbar_box d-flex text-end d-md-none debug-red">
-            <nav id="navbar-small" class="nav_bar">
-                <span>H</span>
-            </nav>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
           </div>
-          <!-- /Header Hamburger Column  -->
-          
         </div>
       </nav>
       <!-- /Bootstrap container full-width -->
@@ -57,7 +52,7 @@
   <section class="jumbotron d-flex debug-lightblue h500">
 
     <div class="jumbotron_box d-flex debug-lightblue">
-      <img src="https://doodleipsum.com/700/avatar-2?i=4eaa8e83ae7f03a591f0025589ae5cf8" alt="">
+      <img src="img/avatar.svg" alt="">
       <h1>Start Bootstrap</h1>
       <span>DECORATIONS</span>
       <span>Grapich Artist - Web Designer - Illustrator</span>
@@ -137,7 +132,7 @@
           </div>
 
           <div class="about_download">
-            <h6>DOWNLOAD</h6>
+            <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
           </div>
 
         </div>
@@ -156,7 +151,32 @@
         </div>
 
         <div class="contact_me_form_box">
-          <span>FORM</span>
+          
+          <form>
+
+            <div class="mb-3">
+              <label for="InputName" class="form-label">Name</label>
+              <input type="text" class="form-control" id="InputName">
+            </div>
+
+            <div class="mb-3">
+              <label for="InputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="InputEmail">
+            </div>
+
+            <div class="mb-3">
+              <label for="InputTel" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="InputTel">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" id="InputMessage"></textarea>
+            </div>
+          
+            <button type="submit" class="btn btn-primary" id="send-form">Send</button>
+          </form>
+          
         </div>
 
       </div>
@@ -179,7 +199,7 @@
             <div class="col debug-black"></div>
             <div class="col debug-black"></div>
           </div>
-          
+
         </div>
       </div>
       <!-- Personal container with width in % -->

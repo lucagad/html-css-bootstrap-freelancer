@@ -28,33 +28,18 @@ header nav .row{
   height: 100%;
 }
 
-.title_page_box{
+
+#navbar_normal{
   text-transform: uppercase;
   color: white;
 }
 
-.navbar_box{
-  justify-content: flex-end;
-  align-items: center;
-}
-
-#navbar-normal{
-  text-transform: uppercase;
-}
-
-#navbar-normal ul{
-  justify-content: space-between;
-  align-items: center;
-}
-
-#navbar-normal ul li{
-  list-style: none;
-  padding: 0 10px;
-}
-
-#navbar-normal ul li a{
-  text-decoration: none;
+#navbar_normal ul li a{
   color: white;
+}
+
+#navbar_normal ul li a:hover{
+  color: grey;
 }
 
 
@@ -80,6 +65,7 @@ header nav .row{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 30px 0;
 }
 
 .jumbotron_box img{
@@ -105,6 +91,8 @@ main{
   flex-direction: column;
 }
 
+/* PORTFOLIO SECTION */
+
 .portfolio{
   background-color: white;
   width: 100%;
@@ -117,6 +105,10 @@ main{
 .portfolio_title{
   text-align: center;
 }
+/* /PORTFOLIO SECTION */
+
+
+/* ABOUT SECTION */
 
 .about{
   width: 100%;
@@ -131,15 +123,31 @@ main{
   text-align: center;
 }
 
+/* /ABOUT SECTION */
+
+
+/* CONTACT ME SECTION */
+
 .contact_me{
   background-color: white;
   width: 100%;
 }
 
-.contact_me{
+.contact_me_title{
   text-align: center;
 }
 
+#send-form{
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+#send-form:hover{
+  background-color: #1f836c;
+  border-color: #1f836c;
+}
+
+/* /CONTACT ME SECTION */
 
 
 /* 
