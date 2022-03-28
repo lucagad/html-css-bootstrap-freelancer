@@ -91,6 +91,10 @@ main{
   flex-direction: column;
 }
 
+main h2{
+  text-transform: uppercase;
+}
+
 /* PORTFOLIO SECTION */
 
 .portfolio{
@@ -113,13 +117,18 @@ main{
 .about{
   width: 100%;
   background-color: #1abc9c;
+  color: white;
 }
 
 .about_title{
+  padding-top: 30px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
 .about_download{
+  padding-top: 15px;
+  padding-bottom: 35px;
   text-align: center;
 }
 
