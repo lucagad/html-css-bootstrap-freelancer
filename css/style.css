@@ -59,6 +59,11 @@ header nav .row{
   color: grey;
 }
 
+#navbar_normal .navbar-brand{
+font-size: 1.5rem;
+font-weight: bold;
+}
+
 
 /* 
     /HEADER 
@@ -125,6 +130,8 @@ main h2{
   width: 100%;
   height: 100%;
   position: relative;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .portfolio_item_box i {
@@ -136,7 +143,6 @@ main h2{
 .portfolio_item_box img{
   width: 100%;
   height: 100%;
-  border-radius: 10px;
 }
 
 .item_overlay{
